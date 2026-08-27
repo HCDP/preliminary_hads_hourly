@@ -1,0 +1,9 @@
+# generated data and logs — the master CSV is the permanent record and is
+# backed up outside git, not committed
+data_out/
+dataCatalog/
+runlogs/
+
+.Rhistory
+.RData
+.Rproj.user/

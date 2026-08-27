@@ -1,0 +1,261 @@
+pe,unit,description
+AD,,Reserved
+AF,,"Surface frost intensity (coded, see Table 20)"
+AG,%,Percent of green vegetation
+AM,,"Surface dew intensity (coded, see Table 21)"
+AT,HRS and MIN,"Time below critical temperature, 25 DF or -3.9 DC"
+AU,HRS and MIN,"Time below critical temperature, 32 DF or 0 DC"
+AW,HRS and MIN,Leaf wetness
+BA,in,Solid portion of water equivalent
+BB,in,Heat deficit
+BC,in,Liquid water storage
+BD,DF,Temperature index
+BE,in,Maximum water equivalent since snow began to accumulate
+BF,in,Areal water equivalent just prior to the new snowfall
+BG,%,Areal extent of snow cover from the areal depletion curve just prior to the new snowfall
+BH,in,Amount of water equivalent above which 100 % areal snow cover temporarily exists
+BI,in,Excess liquid water in storage
+BJ,in,Areal extent of snow cover adjustment
+BK,in,Lagged excess liquid water for interval 1
+BL,in,Lagged excess liquid water for interval 2
+BM,in,Lagged excess liquid water for interval 3
+BN,in,Lagged excess liquid water for interval 4
+BO,in,Lagged excess liquid water for interval 5
+BP,in,Lagged excess liquid water for interval 6
+BQ,in,Lagged excess liquid water for interval 7
+CA,in,Upper zone tension water contents
+CB,in,Upper zone free water contents
+CC,in,Lower zone tension water contents
+CD,in,Lower zone free water supplementary storage contents
+CE,in,Lower zone free water primary storage contents
+CF,in,Additional impervious area contents
+CG,in,Antecedent precipitation index
+CH,in,Soil moisture index deficit
+CI,in,Base flow storage contents
+CJ,in,Base flow index
+CK,in,First quadrant index Antecedent Evaporation Index (AEI)
+CL,DF,First quadrant index Antecedent Temperature Index (ATI)
+CM,DF,Frost index
+CN,%,Frost efficiency index
+CO,AEI or ATI,Indicator of first quadrant index
+CP,in,Storm total rainfall
+CQ,in,Storm total runoff
+CR,in,Storm antecedent index
+CS,in,Current antecedent index
+CT,integer,Storm period counter
+CU,DF,Average air temperature
+CV,DF,Current corrected synthetic temperature
+CW,in,"Storm antecedent evaporation index, AEI"
+CX,in,Current AEI
+CY,in,Current API
+CZ,,Climate Index
+DJ,,Julian date (SHEF Table 9a non-physical element)
+DU,,"Unit-type change, E=English / S=SI (SHEF Table 9a non-physical element)"
+EA,in,Evapotranspiration potential amount
+ED,in,"Evaporation, pan depth"
+EM,in,Evapotranspiration amount
+EP,in,"Evaporation, pan increment"
+ER,IN/day,Evaporation rate
+ET,in,Evapotranspiration total
+EV,in,"Evaporation, lake computed"
+FA,,Fish - shad
+FB,,Fish - sockeye
+FC,,Fish - chinook
+FE,,Fish - chum
+FK,,Fish - coho
+FL,1=left,Fish - ladder
+FP,,Fish - pink
+FS,,Fish – steelhead
+FT,1=adult,Fish type - type
+FZ,,Fish - count of all types combined
+GC,,"Condition, road surface (coded, see Table 1)"
+GD,in,"Frost depth, depth of frost penetration, non permafrost"
+GL,%,"Salt content on a surface (e.g., road)"
+GP,in,"Frost, depth of pavement surface"
+GR,,"Frost report, structure (coded, see Table 16)"
+GS,,"Ground state (coded, see Table 18)"
+GT,in,"Frost, depth of surface frost thawed"
+GW,in,"Frost, depth of pavement surface frost thawed"
+HA,ft,"Height of reading, altitude above surface"
+HB,ft,"Depth of reading below surface, or to water table or groundwater"
+HC,ft,"Height, ceiling"
+HD,ft,"Height, head"
+HE,ft,"Height, regulating gate"
+HF,ft,"Elevation, project powerhouse forebay"
+HG,ft,"Height, river stage"
+HH,ft,"Height of reading, elevation in MSL"
+HI,,"Stage trend indicator (coded, see Table 19)"
+HJ,ft,"Height, spillway gate"
+HK,ft,"Height, lake above a specified datum"
+HL,ft,"Elevation, natural lake"
+HM,ft,"Height of tide, MLLW"
+HN,,"Height, river stage (FT,M) minimum of the day translated to “HGIRZNZ”"
+HO,ft,"Height, flood stage"
+HP,ft,"Elevation, pool"
+HQ,,"Distance from a ground reference point to the river's edge used to estimate stage (coded, see Chapter 7.4.6)"
+HR,ft,"Elevation, lake or reservoir rule curve"
+HS,ft,"Elevation, spillway forebay"
+HT,ft,"Elevation, project tail water stage"
+HU,ft,"Height, cautionary stage"
+HV,in,"Depth of water on a surface (e.g., road)"
+HW,ft,"Height, spillway tail water (FT, M) at 7 a.m. local time"
+HX,,"Height, river stage (FT,M) maximum of the day translated to “HGIRZXZ”"
+HY,,"Height, river stage at 7 a.m. local prior to the date-time stamp (FT,M) translated to “HGIRZZZ” 1/"
+HZ,KFT,"Elevation, freezing level"
+IC,%,"Ice cover, river"
+IE,mi,"Extent of ice from reporting area, upstream “+,” downstream -"
+IO,ft,"Extent of open water from reporting area, downstream “+,” upstream -"
+IR,,"Ice report type, structure, and cover (coded, see Table 14)"
+IT,in,Ice thickness
+LA,KAC,Lake surface area
+LC,kaf,Lake storage volume change
+LS,kaf,Lake storage volume
+MD,,"Dielectric Constant at depth, paired value vector (coded, see Chapter 7.4.6 for format)"
+MI,in,"Moisture, soil index or API"
+ML,in,"Moisture, lower zone storage"
+MM,%,"Fuel moisture, wood"
+MN,,"Soil Salinity at depth, paired value vector (coded, see Chapter 7.4.6 for format)"
+MS,,"Soil Moisture amount at depth (coded, see Chapter 7.4.6)"
+MT,DF,"Fuel temperature, wood probe"
+MU,in,"Moisture, upper zone storage"
+MV,,"Water Volume at Depth, paired value vector (coded, see Chapter 7.4.6 for format)"
+MW,%,"Moisture, soil, percent by weight"
+NC,,River control switch
+NG,ft,Total of gate openings
+NL,whole number,Number of large flash boards down
+NN,used with HP,Number of the spillway gate reported
+NO,,"Gate opening for a specific gate (coded, see Chapter 7.4.6)"
+NS,whole number,Number of small flash boards down
+PA,,"Pressure, atmospheric - unit is station-dependent in HADS (mb or in-Hg); see README"
+PC,in,"Precipitation, accumulator"
+PD,in-Hg,"Pressure, atmospheric net change during past 3 hours"
+PE,in,"Pressure, characteristic, NWS Handbook #7, table 10.7 PPTCF for 3-hour intervals"
+PF,,"Precipitation, flash flood guidance precipitation to initiate flooding in a 3-hour interval (IN,MM) translated to “PPTCF”"
+PJ,in,"Precipitation, departure from normal"
+PL,,"Pressure, sea level - unit is station-dependent in HADS (mb or in-Hg); see README"
+PM,,"Probability of measurable precipitation (dimensionless) (coded, see Table 22)"
+PN,in,Precipitation normal
+PP,in,"Precipitation (includes liquid amount of new snowfall), actual increment"
+PR,IN/day,Precipitation rate
+PT,in,"Precipitation, type (coded, see Table 17) to PPDRZZZ at 7 a.m. local time"
+PY,,"Precipitation increment ending at 7 a.m. local prior to date-time stamp (IN,MM) translated to “PPDRZZZ” 1/"
+QA,kcfs,"Discharge, adjusted for storage at project only"
+QB,in,Runoff depth
+QC,kaf,Runoff volume
+QD,kcfs,"Discharge, canal diversion"
+QE,%,"Discharge, percent of flow diverted from channel"
+QF,mi/hr,Discharge velocity
+QG,kcfs,Discharge from power generation
+QI,kcfs,"Discharge, inflow"
+QL,kcfs,"Discharge, rule curve"
+QM,kcfs,"Discharge, preproject conditions in basin"
+QN,,"Discharge, river (KCFS,CMS) minimum of the day translated to “QRIRZNZ”"
+QP,kcfs,"Discharge, pumping"
+QR,kcfs,"Discharge, river"
+QS,kcfs,"Discharge, spillway"
+QT,kcfs,"Discharge, computed total project outflow"
+QU,kcfs,"Discharge, controlled by regulating outlet"
+QV,kcfs,"Cumulative volume increment (KAF, MCM) 7 a.m. local time"
+QX,,"Discharge, river (KCFS,CMS) maximum of the day translated to “QRIRZXZ”"
+QY,,"Discharge, river at 7 a.m. local prior to date-time stamp (KCFS,CMS) translated to “QRIRZZZ” 1/"
+QZ,,Reserved
+RA,%,"Radiation, albedo"
+RI,langley,"Radiation, accumulated incoming solar over specified duration in langleys"
+RN,W/m2,"Radiation, net radiometers"
+RP,%,"Radiation, sunshine percent of possible"
+RS,,Radio #2 (not a SHEF Table 1 physical element)
+RT,hrs,"Radiation, sunshine hours"
+RW,W/m2,"Radiation, total incoming solar radiation"
+SA,%,"Snow, areal extent of basin snow cover"
+SB,in,"Snow, Blowing Snow Sublimation"
+SD,in,"Snow, depth"
+SE,DF,"Snow, Average Snowpack Temperature"
+SF,,"Snow, depth, 24 hour snowfall (IN, CM) translated to “SFDRZZZ”"
+SI,in,"Snow, depth on top of river or lake ice"
+SL,KFT,"Snow, elevation of snow line"
+SM,in,"Snow, Melt"
+SP,in,Snowmelt plus rain
+SR,,"Snow report, structure, type, surface, and bottom (coded, see Table 15)"
+SS,,Snow density
+ST,,Snow temperature at depth measured from ground
+SU,in,"Snow, Surface Sublimation"
+SW,in,"Snow, water equivalent"
+TA,DF,"Temperature, air, dry bulb"
+TB,,"Temperature in bare soil at depth (coded, see Chapter 7.4.6 for format)"
+TC,DF,"Temperature, degree days of cooling, above 65 DF or 18.3 DC"
+TD,DF,"Temperature, dew point"
+TE,,"Temperature, air temperature at elevation above MSL"
+TF,DF,"Temperature, degree days of freezing, below 32 DF or 0 DC"
+TH,DF,"Temperature, degree days of heating, below 65 DF or 18.3 DC"
+TJ,DF,"Temperature, departure from normal"
+TM,DF,"Temperature, air, wet bulb"
+TN,DF,"Temperature, air, minimum of period"
+TP,DF,"Temperature, pan water"
+TR,DF,"Temperature, road surface"
+TS,DF,"Temperature, bare soil at the surface"
+TV,,"Temperature in vegetated soil at depth (coded, see Chapter 7.4.6 for format)"
+TW,DF,"Temperature, water"
+TX,DF,"Temperature, air, maximum of period"
+TZ,DF,"Temperature, Freezing, road surface"
+UC,mi,"Wind, accumulated wind travel"
+UD,deg,"Wind, direction"
+UE,deg,"Wind, standard deviation"
+UG,mi/hr,"Wind, gust at observation time"
+UH,deg*10,Wind gust direction associated with the wind gust
+UL,mi,"Wind, travel length accumulated over specified"
+UP,mi/hr,Peak wind speed
+UQ,,"Wind direction and speed combined (SSS.SDDD), a value of 23.0275 would indicate a wind of 23.0 mi/hr from 275 degrees"
+UR,deg*10,Peak wind direction associated with peak wind speed
+US,mi/hr,"Wind, speed"
+UT,,Minute of the peak wind speed
+VB,volt,Voltage - battery
+VC,megawatts,"Generation, surplus capacity of units on line"
+VE,MWh,"Generation, energy total"
+VG,megawatts,"Generation, pumped water, power produced"
+VH,hrs,"Generation, time"
+VJ,MWh,"Generation, energy produced from pumped water"
+VK,,"Generation, energy stored in reservoir only"
+VL,,"Generation, storage due to natural flow only"
+VM,,"Generation, losses due to spill and other water losses"
+VP,megawatts,"Generation, pumping use, power used"
+VQ,MWh,"Generation, pumping use, total energy used"
+VR,,"Generation, stored in reservoir plus natural flow, energy potential"
+VS,MWh,"Generation, station load, energy used"
+VT,megawatts,"Generation, power total"
+VU,,"Generator, status (encoded)"
+VW,megawatts,"Generation station load, power used"
+WA,ppm,"Water, dissolved nitrogen & argon"
+WC,umhos/cm,"Water, conductance"
+WD,in,"Water, piezometer water depth"
+WF,,Not defined in the SHEF code manual; HADS/local extension
+WG,in-Hg,"Water, dissolved total gases, pressure"
+WH,ppm,"Water, dissolved hydrogen sulfide"
+WL,ppm,"Water, suspended sediment"
+WO,ppm,"Water, dissolved oxygen"
+WP,pH,"Water, ph"
+WS,ppt,"Water, salinity"
+WT,JTU,"Water, turbidity"
+WV,ft/sec,"Water, velocity"
+WX,%,"Water, Oxygen Saturation"
+WY,ppb,"Water, Chlorophyll"
+XC,tenths,Total sky cover
+XG,whole number,"Lightning, number of strikes per grid box"
+XL,whole number,"Lightning, point strike, assumed one strike at transmitted latitude and longitude"
+XP,,"Weather, past NWS synoptic code"
+XR,%,"Humidity, relative"
+XU,grams/FT3,"Humidity, absolute"
+XV,mi,"Weather, visibility"
+XW,,"Weather, present NWS synoptic code"
+YA,whole number,Number of 15-minute periods a river has been above a specified critical level
+YC,whole number,Random report sequence number
+YF,watts,"Forward power, a measurement of the DCP, antenna, and coaxial cable"
+YI,,SERFC unique
+YP,,Reserved Code
+YR,watts,"Reflected power, a measurement of the DCP, antenna, and coaxial cable"
+YS,whole number,Sequence number of the number of times the DCP has transmitted
+YT,whole number,Number of 15-minute periods since a random report was generated due to an increase of 0.4 inch of precipitation
+YU,YUIRG,GENOR raingage status level 1 - NERON observing sites
+YV,YVIRG,"A Second Battery Voltage (NERON sites ONLY), voltage 0"
+YW,YWIRG,GENOR raingage status level 2 - NERON observing sites
+YY,YYIRG,GENOR raingage status level 3 - NERON observing sites
+YZ,YZIRG,"Time of Observation – Minutes of the calendar day, minutes 0 - NERON observing sites"
